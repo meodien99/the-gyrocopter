@@ -23,6 +23,10 @@ var Helper = {
          x: tx,
          y: ty
       };
+   },
+
+   getDiffPos : function(geo1, geo2){
+      return geo1.mesh.position.clone().sub(geo2.mesh.position.clone());
    }
 };
 

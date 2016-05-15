@@ -5,5 +5,7 @@ module.exports = {
    pink:0xF5986E,
    brownDark:0x23190f,
    blue:0x68c3c0,
-   FOG : 0xf7d9aa
+   FOG : 0xf7d9aa,
+   PURGE_WHITE : 0xffffff,
+   COIN : 0x009999
 };

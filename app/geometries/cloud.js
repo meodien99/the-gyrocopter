@@ -3,6 +3,7 @@ var Colors = require('../configs/color');
 var Cloud = function(){
    // create empty container that will hold all the different parts of the cloud
    this.mesh = new THREE.Object3D();
+   this.mesh.name = "cloud";
 
    // create a cube geometry;
    // This shape will be duplicated to create the cloud
@@ -39,5 +40,14 @@ var Cloud = function(){
       this.mesh.add(m);
    }
 }; // End Cloud
+
+Cloud.prototype.rotate = function(){
+   var len = this.mesh.children.length;
+   for(var i = 0; i < len; i++){
+      var m = this.mesh.children[i];
+      m.rotation.z += Math.random() * .005 * (i + 1);
+      m.rotation.y += Math.random() * .002 * (i + 1);
+   }
+};
 
 module.exports = Cloud;

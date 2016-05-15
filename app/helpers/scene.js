@@ -1,4 +1,5 @@
 var EventHelper = require('./events');
+var GAME = require('../configs/game');
 
 var SceneHelper = {
    handleWindowResize : function (camera, renderer, WIDTH, HEIGHT) {
@@ -50,6 +51,17 @@ var SceneHelper = {
    updateCameraFov : function (camera, mousePos){
       camera.fov = EventHelper.normalize(mousePos.x,-1,1,40, 80);
       camera.updateProjectionMatrix();
+   },
+
+
+   // INGAME
+   removeEnergy : function(GAME_VARIABLES){
+      GAME_VARIABLES.ENERGY -= GAME.ENEMY_VALUE;
+      GAME_VARIABLES.ENERGY = Math.max(0, GAME_VARIABLES.ENERGY);
+   },
+   addEnergy : function(GAME_VARIABLES){
+      GAME_VARIABLES.ENERGY += GAME.COIN_VALUE;
+      GAME_VARIABLES.ENERGY = Math.min(GAME_VARIABLES.ENERGY, 100);
    }
 };
 
