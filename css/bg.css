@@ -87,14 +87,6 @@ a:focus {
 	}
 }
 
-.world {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-	background: -webkit-linear-gradient(#e4e0ba, #f7d9aa);
-	background: linear-gradient(#e4e0ba, #f7d9aa);
-}
 
 /* Styles for sponsor */
 body #cdawrap { top: auto; right: auto; bottom: 12px; left: 12px; border: 1px solid #d1b790; background: none; }

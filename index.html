@@ -4,27 +4,27 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <title>Aviator</title>
+   <title>Gyrocopter</title>
    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700italic' rel='stylesheet' type='text/css'>
    <link rel="stylesheet" type="text/css" href="css/bg.css" />
    <link rel="stylesheet" type="text/css" href="css/style.css" />
-   <script src="js/TweenMax.min.js"></script>
-   <script src="js/three.min.js"></script>
+   <script type="text/javascript" src="js/TweenMax.min.js"></script>
+   <script type="text/javascript" src="js/three.min.js"></script>
    <script type="text/javascript" src="dist/bundle.js"></script>
    <!-- <script type="text/javascript" src="js/main.js"></script> -->
 </head>
 <body>
 <div class="game-holder" id="game-holder">
    <div class="header">
-      <h1><span>the</span>Aviator</h1>
+      <h1><span>the</span>Gyrocopter</h1>
       <h2>Fly it to the end.</h2>
       <div class="score" id="score">
          <div class="score__content" id="level">
             <div class="score__label">level</div>
             <div class="score__value score__value--level" id="levelValue">1</div>
-            <svg class="level-circle" id="levelCricle" viewbox="0 0 200 200">
+            <svg class="level-circle" id="levelCircle" viewbox="0 0 200 200">
                <circle id="levelCircleBgr" r="80" cx="100" cy="100" stroke="#d1b790" stroke-width="24px" fill="none"/>
-               <circle id="levelCircleStroke" r="80" cx="100" cy="100" stroke="#68c3c0" #f25346 stroke-width="14px" fill="none" stroke-dasharray="502" />
+               <circle id="levelCircleStroke" r="80" cx="100" cy="100" stroke="#68c3c0" stroke-width="14px" fill="none" stroke-dasharray="502" />
             </svg>
          </div>
          <div class="score__content" id="dist">
@@ -40,10 +40,8 @@
       </div> <!-- .score -->
    </div> <!-- .header -->
    <div class="world" id="world"></div>
-   <div class="message message--replay" id="replayMessage">Click to Replay</div>
+   <div class="message message--replay" id="replayMessage">Click To Play</div>
    <div class="message message--instructions" id="instructions">Grab the blue pills <span>avoid the red ones</span></div>
-   <br>
-   <div class="message message--play" id="playMessage">Play</div>
 </div>
 </body>
 </html>

@@ -25,6 +25,17 @@ var Helper = {
       };
    },
 
+   handleTouchMove : function (event, WIDTH, HEIGHT){
+      event.preventDefault();
+      var tx = -1 + (event.touch[0].pageX / WIDTH) * 2;
+      var ty = 1 - (event.touch[0].pageY / HEIGHT) * 2;
+
+      return {
+         x: tx,
+         y: ty
+      };
+   },
+
    getDiffPos : function(geo1, geo2){
       return geo1.mesh.position.clone().sub(geo2.mesh.position.clone());
    }

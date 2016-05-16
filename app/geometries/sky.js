@@ -40,15 +40,16 @@ var Sky = function(){
 
       this.mesh.add(c.mesh);
    }
-
-   this.moveClouds = function(deltaTime){
-      for(var i = 0; i < this.clouds.length; i++){
-         var c = this.clouds[i];
-         c.rotate();
-      }
-
-      this.mesh.rotation.z += GAME.SPEED * deltaTime;
-   };
 };
+
+Sky.prototype.moveClouds = function(deltaTime, GAME_VARIABLES){
+   for(var i = 0; i < this.clouds.length; i++){
+      var c = this.clouds[i];
+      c.rotate();
+   }
+
+   this.mesh.rotation.z += GAME_VARIABLES.SPEED * deltaTime;
+};
+
 
 module.exports = Sky;

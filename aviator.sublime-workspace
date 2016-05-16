@@ -4,16 +4,280 @@
 		"selected_items":
 		[
 			[
+				"Scen",
+				"SceneHelper	(main.js)"
+			],
+			[
+				"show",
+				"showReplay"
+			],
+			[
+				"LEVL",
+				"LEVEL"
+			],
+			[
+				"GAME",
+				"GAME_VARIABLES	(sky.js)"
+			],
+			[
+				"Par",
+				"Particle"
+			],
+			[
+				"prot",
+				"prototype	(bundle.js)"
+			],
+			[
+				"handleTouc",
+				"handleTouchEnd"
+			],
+			[
+				"handleM",
+				"handleMouseUp"
+			],
+			[
+				"PLANE_COLDIS",
+				"PLANE_COLLISION_DISPLACEMENT_X"
+			],
+			[
+				"PLANECOLL",
+				"PLANE_COLLISION_SPEED_X"
+			],
+			[
+				"PLANECOL",
+				"PLANE_COLLISION_SPEED_X"
+			],
+			[
+				"CAMER",
+				"CAMERA_FAR_POS	(game.js)"
+			],
+			[
+				"CAME",
+				"CAMERA_NEAR_POS	(game.js)"
+			],
+			[
+				"PLANEROT",
+				"PLANE_ROTX_SENSIVITY	(game.js)"
+			],
+			[
+				"PLANE",
+				"PLANE_MOVE_SENSIVITY"
+			],
+			[
+				"PLANEC",
+				"PLANE_COLLISION_DISPLACEMENT_X	(game.js)"
+			],
+			[
+				"PLANE_CO",
+				"PLANE_COLLISION_SPEED_X	(game.js)"
+			],
+			[
+				"PLANEA",
+				"PLANE_AMP_WIDTH	(game.js)"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"enge",
+				"energyBar"
+			],
+			[
+				"DIST",
+				"DISTANCE_FOR_LEVEL_UPDATE"
+			],
+			[
+				"file",
+				"fieldDistance"
+			],
+			[
+				"RATIO",
+				"RATIO_SPEED_DISTANCE	(game.js)"
+			],
+			[
+				"airpl",
+				"airplane"
+			],
+			[
+				"ambi",
+				"ambientLight"
+			],
+			[
+				"am",
+				"ambientLight	(scene.js)"
+			],
+			[
+				"spawn",
+				"spawnEnemies	(enemy_holder.js)"
+			],
+			[
+				"EN",
+				"ENEMY_LAST_SPAWN"
+			],
+			[
+				"DISTAN",
+				"DISTANCE_FOR_ENEMIES_SPAWN	(game.js)"
+			],
+			[
+				"Dis",
+				"DISTANCE"
+			],
+			[
+				"INC",
+				"INCREMENT_SPEED_BY_LEVEL	(game.js)"
+			],
+			[
+				"LEV",
+				"LEVEL"
+			],
+			[
+				"LEVE",
+				"LEVEL_LAST_UPDATE"
+			],
+			[
+				"DIS",
+				"DISTANCE_FOR_ENEMIES_SPAWN	(game.js)"
+			],
+			[
+				"del",
+				"deltaTime"
+			],
+			[
+				"SPE",
+				"SPEED_LAST_UPDATE	(game.js)"
+			],
+			[
+				"DISTANCE",
+				"DISTANCE_FOR_SPEED_UPDATE	(game.js)"
+			],
+			[
+				"COIN",
+				"COIN_LAST_SPAWN"
+			],
+			[
+				"Part",
+				"ParticlesHolder"
+			],
+			[
+				"part",
+				"particlesHolder"
+			],
+			[
+				"partcil",
+				"particlesPool"
+			],
+			[
+				"Parti",
+				"ParticlesHolder	(particle_holder.js)"
+			],
+			[
+				"Ene",
+				"EnemiesHolder"
+			],
+			[
+				"enem",
+				"enemiesHolder"
+			],
+			[
+				"e",
+				"enemy_holder.js"
+			],
+			[
+				"coin",
+				"coins_holder.js"
+			],
+			[
+				"shad",
+				"shadowLight"
+			],
+			[
+				"particle",
+				"particlesPool	(main.js)"
+			],
+			[
+				"Coin",
+				"CoinsHolder"
+			],
+			[
+				"En",
+				"EnemiesHolder"
+			],
+			[
+				"MEsh",
+				"MeshPhongMaterial	(pilot.js)"
+			],
+			[
+				"enemiu",
+				"enemiesInUse"
+			],
+			[
+				"parti",
+				"particlesPool	(main.js)"
+			],
+			[
+				"Partc",
+				"particle"
+			],
+			[
+				"enemi",
+				"enemiesInUse"
+			],
+			[
+				"ang",
+				"angle"
+			],
+			[
+				"PLANE_AM",
+				"PLANE_AMP_HEIGHT	(game.js)"
+			],
+			[
+				"SEA",
+				"SEA_RADIUS	(game.js)"
+			],
+			[
+				"en",
+				"enemiesPool"
+			],
+			[
+				"Obj",
+				"Object3D	(sky.js)"
+			],
+			[
+				"WAVE",
+				"WAVES_MIN_SPEED"
+			],
+			[
+				"WA",
+				"WAVES_MIN_SPEED	(game.js)"
+			],
+			[
+				"WAV",
+				"WAVES_MIN_AMP"
+			],
+			[
+				"whe",
+				"wheelProtecR"
+			],
+			[
+				"whel",
+				"wheelProtecMat"
+			],
+			[
+				"blad",
+				"blade2"
+			],
+			[
+				"bla",
+				"blade1"
+			],
+			[
 				"reuq",
 				"require"
 			],
 			[
 				"proto",
 				"prototype"
-			],
-			[
-				"prot",
-				"prototype	(main.js)"
 			],
 			[
 				"test",
@@ -122,10 +386,6 @@
 			[
 				"sha",
 				"shadowLight"
-			],
-			[
-				"shad",
-				"shadow"
 			],
 			[
 				"shadow",
@@ -254,226 +514,6 @@
 			[
 				"xgame",
 				"xgamedb"
-			],
-			[
-				"user",
-				"username"
-			],
-			[
-				"parse",
-				"parseInt"
-			],
-			[
-				"end",
-				"end_time"
-			],
-			[
-				"B",
-				"BETWEEN	(payment.js)"
-			],
-			[
-				"Date",
-				"Date_time"
-			],
-			[
-				"se",
-				"self"
-			],
-			[
-				"adv",
-				"adv_banner"
-			],
-			[
-				"image",
-				"image_url"
-			],
-			[
-				"con",
-				"connection"
-			],
-			[
-				"ena",
-				"enable_minbets"
-			],
-			[
-				"en",
-				"enable_minbets"
-			],
-			[
-				"xpar",
-				"xpartner_id"
-			],
-			[
-				"gamecode",
-				"game_code"
-			],
-			[
-				"xgame_minbet",
-				"xgame_minbet_config"
-			],
-			[
-				"xpart",
-				"xpartner_id"
-			],
-			[
-				"inser",
-				"insertXpartner"
-			],
-			[
-				"xsms",
-				"xsms_charge"
-			],
-			[
-				"connec",
-				"connection"
-			],
-			[
-				"respons",
-				"responseJson"
-			],
-			[
-				"xpaer",
-				"xpartner_id"
-			],
-			[
-				"xpa",
-				"xpartner_id"
-			],
-			[
-				"xcl",
-				"xclient_version"
-			],
-			[
-				"xcli",
-				"xclient_type"
-			],
-			[
-				"ref",
-				"referrer"
-			],
-			[
-				"divce",
-				"device_id"
-			],
-			[
-				"exchange",
-				"exchange_item_type_id"
-			],
-			[
-				"desc",
-				"description	(functions.js)"
-			],
-			[
-				"type",
-				"type_id"
-			],
-			[
-				"partner",
-				"partner_id"
-			],
-			[
-				"last",
-				"last_login_time	(statistic.js)"
-			],
-			[
-				"DEL",
-				"DELETE_EVENT	(log_types.js)"
-			],
-			[
-				"Un",
-				"UNDEFINED	(functions.js)"
-			],
-			[
-				"Ac",
-				"ACTION_TYPE"
-			],
-			[
-				"AD",
-				"ADD_COIN	(log_types.js)"
-			],
-			[
-				"CH",
-				"CHANGE_PASSWORD	(log_types.js)"
-			],
-			[
-				"im",
-				"image_url"
-			],
-			[
-				"sum",
-				"summary"
-			],
-			[
-				"sel",
-				"selectQuery"
-			],
-			[
-				"xp",
-				"xpartner_id"
-			],
-			[
-				"va",
-				"value"
-			],
-			[
-				"camp",
-				"campaignQuery"
-			],
-			[
-				"custom",
-				"customer_cares"
-			],
-			[
-				"coin",
-				"coins"
-			],
-			[
-				"m",
-				"module"
-			],
-			[
-				"stat",
-				"statistic"
-			],
-			[
-				"dat",
-				"date2"
-			],
-			[
-				"statist",
-				"statisticRepo"
-			],
-			[
-				"page",
-				"pageContentWrapper"
-			],
-			[
-				"win",
-				"windowHeight"
-			],
-			[
-				"rgb",
-				"rgba()"
-			],
-			[
-				"rel",
-				"relative"
-			],
-			[
-				"marg",
-				"margin-left"
-			],
-			[
-				"wid",
-				"width"
-			],
-			[
-				"sub",
-				"submitTodo"
-			],
-			[
-				"keyDow",
-				"keyDown"
 			]
 		]
 	},
@@ -483,7 +523,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2326,
+				"buffer_size": 2294,
 				"line_ending": "Unix"
 			}
 		},
@@ -491,15 +531,31 @@
 			"file": "app/main.js",
 			"settings":
 			{
-				"buffer_size": 3761,
+				"buffer_size": 10138,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/configs/game.js",
+			"file": "css/style.scss",
 			"settings":
 			{
-				"buffer_size": 1336,
+				"buffer_size": 4498,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/geometries/sky.js",
+			"settings":
+			{
+				"buffer_size": 1591,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/geometries/coins_holder.js",
+			"settings":
+			{
+				"buffer_size": 2454,
 				"line_ending": "Unix"
 			}
 		},
@@ -507,7 +563,15 @@
 			"file": "app/geometries/airplane.js",
 			"settings":
 			{
-				"buffer_size": 3746,
+				"buffer_size": 7982,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/configs/game.js",
+			"settings":
+			{
+				"buffer_size": 1046,
 				"line_ending": "Unix"
 			}
 		},
@@ -515,7 +579,39 @@
 			"file": "app/helpers/scene.js",
 			"settings":
 			{
-				"buffer_size": 2092,
+				"buffer_size": 3165,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/helpers/events.js",
+			"settings":
+			{
+				"buffer_size": 1197,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/geometries/particle.js",
+			"settings":
+			{
+				"buffer_size": 1256,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/geometries/particle_holder.js",
+			"settings":
+			{
+				"buffer_size": 717,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/geometries/enemy_holder.js",
+			"settings":
+			{
+				"buffer_size": 2363,
 				"line_ending": "Unix"
 			}
 		},
@@ -523,15 +619,7 @@
 			"file": "app/configs/color.js",
 			"settings":
 			{
-				"buffer_size": 156,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/style.css",
-			"settings":
-			{
-				"buffer_size": 3515,
+				"buffer_size": 203,
 				"line_ending": "Unix"
 			}
 		}
@@ -658,27 +746,36 @@
 	],
 	"file_history":
 	[
+		"/home/madcat/WebstormProjects/aviator/dist/bundle.js",
+		"/home/madcat/WebstormProjects/aviator/app/geometries/pilot.js",
+		"/home/madcat/WebstormProjects/aviator/app/main.js",
+		"/home/madcat/WebstormProjects/aviator/css/bg.css",
+		"/home/madcat/WebstormProjects/aviator/css/style.css",
+		"/home/madcat/WebstormProjects/aviator/app/geometries/sea.js",
+		"/home/madcat/WebstormProjects/aviator/css/style.scss",
+		"/home/madcat/WebstormProjects/aviator/app/geometries/sky.js",
+		"/home/madcat/WebstormProjects/aviator/app/geometries/coins_holder.js",
+		"/home/madcat/WebstormProjects/aviator/app/geometries/coin.js",
+		"/home/madcat/WebstormProjects/aviator/app/geometries/enemy_holder.js",
+		"/home/madcat/WebstormProjects/aviator/app/geometries/particle.js",
+		"/home/madcat/WebstormProjects/aviator/app/geometries/cloud.js",
+		"/home/madcat/WebstormProjects/aviator/app/geometries/enemy.js",
+		"/home/madcat/WebstormProjects/aviator/app/geometries/particle_holder.js",
+		"/home/madcat/WebstormProjects/aviator/app/configs/game.js",
 		"/home/madcat/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/home/madcat/WebstormProjects/aviator/js/game2.js",
 		"/home/madcat/WebstormProjects/aviator/js/main.js",
 		"/home/madcat/WebstormProjects/aviator/webpack.config.js",
-		"/home/madcat/WebstormProjects/aviator/app/geometries/sea.js",
-		"/home/madcat/WebstormProjects/aviator/app/geometries/sky.js",
 		"/home/madcat/WebstormProjects/aviator/app/geometries/airplane.js",
 		"/home/madcat/WebstormProjects/aviator/app/helpers/scene.js",
-		"/home/madcat/WebstormProjects/aviator/app/geometries/pilot.js",
-		"/home/madcat/WebstormProjects/aviator/css/style.scss",
 		"/home/madcat/WebstormProjects/aviator/part2.html",
 		"/home/madcat/WebstormProjects/aviator/app/helpers/events.js",
 		"/home/madcat/WebstormProjects/aviator/app/helpers",
-		"/home/madcat/WebstormProjects/aviator/app/geometries/cloud.js",
-		"/home/madcat/WebstormProjects/aviator/dist/bundle.js",
 		"/home/madcat/WebstormProjects/aviator/js/test.js",
 		"/home/madcat/WebstormProjects/aviator/app/configs/color.js",
 		"/home/madcat/WebstormProjects/aviator/js/test2.js",
 		"/home/madcat/WebstormProjects/aviator/gulpfile.js",
 		"/home/madcat/WebstormProjects/aviator/css/styles.css",
-		"/home/madcat/WebstormProjects/aviator/css/bg.css",
 		"/home/madcat/.config/sublime-text-3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
 		"/home/madcat/PhpstormProjects/xgame-server/app/repositories/payment.js",
 		"/home/madcat/PhpstormProjects/xgame-server/bin/xgameAdminTool",
@@ -723,7 +820,7 @@
 	],
 	"find":
 	{
-		"height": 46.0
+		"height": 48.0
 	},
 	"find_in_files":
 	{
@@ -741,6 +838,71 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"GAME",
+			"blinkEnergy",
+			"particlesInUse",
+			"reset",
+			"showReplay",
+			"loop",
+			"showReplay",
+			"level",
+			"updatePlane",
+			"SPEED_LAST_UPDATE",
+			"game.LEVEL",
+			"fieldLevel",
+			"GAME.STATUS",
+			"resetGame",
+			"handleMouseUp",
+			"resetGame",
+			"resetGame(",
+			"resetGame",
+			"sky",
+			"createSky",
+			"rotateCoins",
+			"waitingReplay",
+			"coin",
+			"particlesHolder",
+			"spawnParticles",
+			"game",
+			"BASE_SPEED",
+			"game.SPEED",
+			"deltaTime",
+			"game.DISTANCE",
+			"updateDistance",
+			"game.DISTANCE",
+			"fieldDistance",
+			"resetGame",
+			"fieldLevel",
+			"waitingReplay",
+			"Sea",
+			"createSea",
+			"createScene",
+			"createSea",
+			"geomWindshield",
+			"GAME_VARIABLES",
+			"updateEnergy",
+			"removeEnergy",
+			"SceneHelper",
+			"ambientLight",
+			"rotateEnemies",
+			"spawnEnemies",
+			"spawn",
+			"handleTouchMove",
+			"EventHelper",
+			"EventHelper.normalize",
+			"GAME",
+			"updatePlane",
+			"energyBar",
+			"particlesPool",
+			"particlesHolder",
+			"ambientLight",
+			"PLANE_SPEED",
+			"mousePos",
+			"particlesPool",
+			"GAME",
+			"ENEMY_VALUE",
+			"GAME",
+			"game_radius",
 			"enery",
 			"updateCameraFov",
 			"targetX",
@@ -803,72 +965,7 @@
 			"delete_exchange",
 			"ACTION_TYPE",
 			"Coin",
-			"logs",
-			"adv_banner",
-			"querystring",
-			"method",
-			"http",
-			"0.45",
-			"xuser_id",
-			"XCHARGE_TYPE_ID",
-			"telco",
-			"feedbac",
-			"exchange_item",
-			"icon",
-			"image_url",
-			"files",
-			"charged_sms_amount",
-			"payment",
-			"carrier_name",
-			"port",
-			"responseJson",
-			"if(partner){",
-			"Phone",
-			"findUserBy",
-			"connection",
-			"console.log",
-			"LIKE",
-			"0.815",
-			"paymentRepo",
-			"findUser",
-			"INSERT INTO",
-			"xsms_shortcode_id",
-			"new",
-			"addCoin",
-			".xpartner_id",
-			".params.xp",
-			"statistic",
-			"created_date",
-			"sDate",
-			"putUserCoin",
-			"admin",
-			"partner_id",
-			"#000004",
-			"exchange",
-			"is-active",
-			"nav",
-			"console.log(",
-			"newUserByTime",
-			"token",
-			"jwt",
-			"var partner = express.request.partner_id",
-			"console.log(",
-			"cardBy",
-			"partner",
-			"all",
-			"coinTo",
-			"query",
-			"logger",
-			"send",
-			"logger",
-			"adminlog",
-			"userlog",
-			"image",
-			"console.log",
-			"getPCU_ACU",
-			"DESC",
-			"sms",
-			"coin"
+			"logs"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -887,7 +984,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -896,15 +993,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2326,
+						"buffer_size": 2294,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2237,
-								2237
+								215,
+								215
 							]
 						],
 						"settings":
@@ -916,10 +1013,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 417.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -928,22 +1025,85 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3761,
+						"buffer_size": 10138,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								575,
-								575
+								1517,
+								1517
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/primer.dark (SL).tmTheme",
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 587.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4498,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3812,
+								3812
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/primer.dark (SL).tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4248.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/geometries/sky.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1591,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								69,
+								69
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/primer.dark (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -953,50 +1113,51 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "app/configs/game.js",
+					"buffer": 4,
+					"file": "app/geometries/coins_holder.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1336,
+						"buffer_size": 2454,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1119,
-								1119
+								110,
+								110
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/primer.dark (SL).tmTheme",
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 726.0,
+						"translation.y": 504.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 5,
 					"file": "app/geometries/airplane.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3746,
+						"buffer_size": 7982,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								7238,
+								7238
 							]
 						],
 						"settings":
@@ -1007,27 +1168,58 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1980.0,
+						"translation.y": 4499.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 6,
+					"file": "app/configs/game.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1046,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								354,
+								354
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/primer.dark (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": "app/helpers/scene.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2092,
+						"buffer_size": 3165,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1980,
-								1980
+								1998,
+								1998
 							]
 						],
 						"settings":
@@ -1038,27 +1230,151 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 528.0,
+						"translation.y": 792.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "app/configs/color.js",
+					"buffer": 8,
+					"file": "app/helpers/events.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 156,
+						"buffer_size": 1197,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								142,
-								142
+								1052,
+								1052
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/primer.dark (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/geometries/particle.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1256,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								835,
+								835
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/primer.dark (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/geometries/particle_holder.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 717,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								183,
+								183
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/primer.dark (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/geometries/enemy_holder.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2363,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								113,
+								113
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/primer.dark (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 288.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "app/configs/color.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 203,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								189,
+								189
 							]
 						],
 						"settings":
@@ -1070,38 +1386,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "css/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3515,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3027,
-								3027
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/primer.dark (SL).tmTheme",
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2595.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
+					"stack_index": 12,
 					"type": "text"
 				}
 			]
@@ -1109,7 +1394,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 32.0
 	},
 	"input":
 	{
@@ -1150,7 +1435,7 @@
 	"project": "aviator.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 60.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1160,20 +1445,48 @@
 		"selected_items":
 		[
 			[
+				"main",
+				"app/main.js"
+			],
+			[
+				"game",
+				"app/configs/game.js"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
 				"index",
 				"index.html"
+			],
+			[
+				"air",
+				"app/geometries/airplane.js"
+			],
+			[
+				"color",
+				"app/configs/color.js"
+			],
+			[
+				"cloud",
+				"app/geometries/cloud.js"
+			],
+			[
+				"sea",
+				"app/geometries/sea.js"
 			],
 			[
 				"airp",
 				"app/geometries/airplane.js"
 			],
 			[
-				"",
-				"css/style.scss"
+				"pilot",
+				"app/geometries/pilot.js"
 			],
 			[
-				"sea",
-				"app/geometries/sea.js"
+				"",
+				"css/style.scss"
 			],
 			[
 				"web",

@@ -1,6 +1,7 @@
 var Colors = require('../configs/color');
 var Pilot = require('./pilot');
 var EventHelper = require('../helpers/events');
+var SceneHelper = require('../helpers/scene');
 var GAME = require('../configs/game');
 
 var AirPlane = function(){
@@ -62,7 +63,7 @@ var AirPlane = function(){
    sideWing.receiveShadow = true;
    this.mesh.add(sideWing);
 
-   var geoWindshield = new THREE.BoxGeometry(3, 15, 20, 1, 1, 1);
+   var geomWindshield = new THREE.BoxGeometry(3, 15, 20, 1, 1, 1);
    var matWindshield = new THREE.MeshPhongMaterial({
       color:Colors.white,transparent:true,
       opacity:.3,
@@ -175,22 +176,42 @@ var AirPlane = function(){
    this.mesh.receiveShadow = true;
 };
 
-AirPlane.prototype.updatePlane = function(GAME_VARIABLES, mousePos){
+AirPlane.prototype.updatePlane = function(mousePos, GAME_VARIABLES, deltaTime, camera){
+   GAME_VARIABLES.PLANE_SPEED = EventHelper.normalize(mousePos.x, -.5, .5, GAME.PLANE_MIN_SPEED, GAME.PLANE_MAX_SPEED);
+
    // let's move the airplane between -100 and 100 on the horizontal axis,
    // and between 25 and 175 on the vertical axis,
    // depending on the mouse position which ranges between -1 and 1 on both axes;
-   // var targetX = normalize(mousePos.x, -1, 1, -100, 100);
-   var targetY = EventHelper.normalize(mousePos.y, -1, 1, 25, 175);
+   var targetX = EventHelper.normalize(mousePos.x, -1, 1, -GAME.PLANE_AMP_WIDTH * .7, -GAME.PLANE_AMP_WIDTH);
+   var targetY = EventHelper.normalize(mousePos.y, -.75, .75, GAME.PLANE_DEFAULT_HEIGHT - GAME.PLANE_AMP_HEIGHT, GAME.PLANE_DEFAULT_HEIGHT + GAME.PLANE_AMP_HEIGHT);
+
+   GAME_VARIABLES.PLANE_COLLISION_DISPLACEMENT_X += GAME_VARIABLES.PLANE_COLLISION_SPEED_X;
+   targetX += GAME_VARIABLES.PLANE_COLLISION_DISPLACEMENT_X;
+
+   GAME_VARIABLES.PLANE_COLLISION_DISPLACEMENT_Y += GAME_VARIABLES.PLANE_COLLISION_SPEED_Y;
+   targetY += GAME_VARIABLES.PLANE_COLLISION_DISPLACEMENT_Y;
+
+
 
    // Move the plane at each frame by adding a fraction of the remaining distance
-   this.mesh.position.y += (targetY-this.mesh.position.y)*0.1;
+   this.mesh.position.x += (targetX - this.mesh.position.x) * deltaTime * GAME.PLANE_MOVE_SENSIVITY;
+   this.mesh.position.y += (targetY - this.mesh.position.y) * deltaTime * GAME.PLANE_MOVE_SENSIVITY;
 
    // update the airplane's position
-   this.mesh.rotation.z = (targetY-this.mesh.position.y)*0.0128;
-   this.mesh.rotation.x = (this.mesh.position.y-targetY)*0.0064;
-   this.propeller.rotation.x += 0.3;
+   this.mesh.rotation.z = (targetY - this.mesh.position.y) * deltaTime * GAME.PLANE_ROTX_SENSIVITY;
+   this.mesh.rotation.x = (this.mesh.position.y - targetY) * deltaTime * GAME.PLANE_ROTZ_SENSIVITY;
 
-   this.pilot.updateHairs();
+   SceneHelper.updateCameraFov(camera, mousePos);
+   camera.position.y += (this.mesh.position.y - camera.position.y) * deltaTime * GAME.CAMERA_SENSITIVTY;
+
+   GAME_VARIABLES.PLANE_COLLISION_SPEED_X += (0 - GAME_VARIABLES.PLANE_COLLISION_SPEED_X) * deltaTime * 0.03;
+   GAME_VARIABLES.PLANE_COLLISION_DISPLACEMENT_X += (0 - GAME_VARIABLES.PLANE_COLLISION_DISPLACEMENT_X) * deltaTime * 0.01;
+   GAME_VARIABLES.PLANE_COLLISION_SPEED_Y += (0 - GAME_VARIABLES.PLANE_COLLISION_SPEED_Y) * deltaTime * 0.03;
+   GAME_VARIABLES.PLANE_COLLISION_DISPLACEMENT_Y += (0 - GAME_VARIABLES.PLANE_COLLISION_DISPLACEMENT_Y) * deltaTime * 0.01;
+
+   this.propeller.rotation.x += .2 + GAME_VARIABLES.PLANE_SPEED * deltaTime * .005;
+
+   this.pilot.updateHairs(deltaTime, GAME_VARIABLES);
 };
 
 module.exports = AirPlane;

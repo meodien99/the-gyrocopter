@@ -24,7 +24,7 @@ Particle.prototype.explode = function(particlesPool, pos, color, scale){
 
    TweenMax.to(this.mesh.rotation, speed, {
       x: Math.random() * 12,
-      y: Math.ramdom() * 12
+      y: Math.random() * 12
    });
    TweenMax.to(this.mesh.scale, speed, {x:.1, y:.1, z:.1});
    TweenMax.to(this.mesh.position, speed, {

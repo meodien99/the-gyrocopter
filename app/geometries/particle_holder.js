@@ -1,10 +1,12 @@
+var Particle = require('./particle');
+
 var ParticlesHolder = function(){
    this.mesh = new THREE.Object3D();
    this.particlesInUse = [];
 };
 
 ParticlesHolder.prototype.spawnParticles = function(particlesPool, pos, density, color, scale){
-   var nParticles = denisty;
+   var nParticles = density;
 
    for(var i = 0; i < nParticles; i++) {
       var particle;
@@ -19,7 +21,7 @@ ParticlesHolder.prototype.spawnParticles = function(particlesPool, pos, density,
 
       particle.mesh.position.x = pos.x;
       particle.mesh.position.y = pos.y;
-      particle.explode(particlesPool, pos,color, scale);
+      particle.explode(particlesPool, pos, color, scale);
    }
 };
 

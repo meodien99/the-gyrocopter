@@ -1,6 +1,7 @@
 var Coin = require('./coin');
 var GAME = require('../configs/game');
-var Helper = require('../helpers/events');
+var Colors = require('../configs/color');
+var EventHelper = require('../helpers/events');
 var SceneHelper = require('../helpers/scene');
 
 var CoinsHolder = function(nCoins){
@@ -36,12 +37,12 @@ CoinsHolder.prototype.spawnCoins = function(){
    }
 };
 
-CoinsHolder.prototype.rotateCoins = function(airPlane, particlesHolder, particlesPool, deltaTime){
+CoinsHolder.prototype.rotateCoins = function(airPlane, particlesHolder, particlesPool, deltaTime, GAME_VARIABLES){
    for(var i = 0;  i < this.coinsInUse.length; i++){
       var coin = this.coinsInUse[i];
       if(coin.exploding) continue;
 
-      coin.angle += GAME.SPEED * deltaTime * GAME.COINS_SPEED;
+      coin.angle += GAME_VARIABLES.SPEED * deltaTime * GAME.COINS_SPEED;
 
       if(coin.angle > Math.PI * 2)
          coin.angle -= Math.PI * 2;
@@ -52,14 +53,14 @@ CoinsHolder.prototype.rotateCoins = function(airPlane, particlesHolder, particle
       coin.mesh.rotation.z += Math.random() * 0.1;
       coin.mesh.rotation.y += Math.random() * 0.1;
 
-      var diffPos = Helper.getDiffPos(airPlane, coin);
-      var d = diffPos.length;
+      var diffPos = EventHelper.getDiffPos(airPlane, coin);
+      var d = diffPos.length();
 
       if( d < GAME.COIN_DISTANCE_TOLERANCE) {
          this.coinsPool.unshift(this.coinsInUse.splice(i, 1)[0]);
          this.mesh.remove(coin.mesh);
          particlesHolder.spawnParticles(particlesPool, coin.mesh.position.clone(), 5, Colors.COIN, .8);
-         SceneHelper.addEnergy();
+         SceneHelper.addEnergy(GAME_VARIABLES);
          i--;
       } else if (coin.angle > Math.PI){
          this.coinsPool.unshift(this.coinsInUse.splice(i, 1)[0]);

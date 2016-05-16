@@ -1,5 +1,4 @@
 var Colors = require('../configs/color');
-var GAME = require('../configs/game');
 
 var Pilot = function(){
    this.mesh = new THREE.Object3D();
@@ -96,7 +95,7 @@ var Pilot = function(){
 
 
 // move the hair
-Pilot.prototype.updateHairs = function(deltaTime){
+Pilot.prototype.updateHairs = function(deltaTime, GAME_VARIABLES){
    // get the hair
    var hairs = this.hairsTop.children;
 
@@ -108,7 +107,7 @@ Pilot.prototype.updateHairs = function(deltaTime){
       h.scale.y = .75 + Math.cos(this.angleHairs+i/3)*.25;
    }
 
-   this.angleHairs += GAME.SPEED*deltaTime*40;
+   this.angleHairs += GAME_VARIABLES.SPEED*deltaTime*40;
 };
 
 module.exports = Pilot;
